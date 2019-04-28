@@ -1,0 +1,175 @@
+body {
+  background-image: url(../images/buildings.jpg);
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menu {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	padding: 0;
+	grid-gap: 10px;
+}
+
+a {
+	text-decoration: none;
+	list-style: none;
+	color: white;
+}
+
+.header a:hover {
+	color: white;
+}
+		
+li {
+	font-family: Lucida Handwriting;
+	background: HotPink;
+	padding: 20px;
+	text-align: center;
+	list-style: none;
+	font-size: 25px;
+	border: 5px RosyBrown solid;
+	font-weight: bold;
+	box-shadow: 5px 2px white;
+}
+	
+.header li:hover {
+	background-color: LightPink;
+	border: 5px white solid;
+	box-shadow: 5px 2px grey;
+}
+
+.about {
+	padding: 40px;
+	background-color: LavenderBlush;
+	border: 10px pink solid;
+	box-shadow: 5px 10px 8px lightgrey;
+}
+
+h1 {
+	text-align: center;
+	font-size: 40px;
+	font-family: Courier New, monospace;
+	color: LightSlateGrey;
+}
+
+h1:hover {
+	background: linear-gradient(to right, coral 0%, blue 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.picde {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	grid-gap: 10px;
+	margin-top: 15px;
+}
+
+.slideshow {
+	position: relative;
+	border: 15px HotPink solid;
+	height: 74vh;
+	width: vw;
+	overflow: hidden;
+	background-color: pink;
+	box-shadow: 5px 5px 5px grey;
+}
+
+.slide {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+}
+
+.slide1 {
+	background-image: url(../images/1.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	animation: disolveRound 20s linear infinite;
+}
+
+.slide2 {
+	background-image: url(../images/restaurant2.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	animation: disolveRound 20s linear infinite 5s;
+}
+
+.slide3 {
+	background-image: url(../images/restaurant3.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	animation: disolveRound 20s linear infinite 10s;
+}
+
+.slide4 {
+	background-image: url(../images/restaurant4.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	animation: disolveRound 20s linear infinite 15s;
+}
+
+@keyframes disolveRound {
+	0% {
+		opacity: 0;
+	}
+	5% {
+		opacity: 1;
+	}
+	25% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 0;
+		transform: scale(1.1);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+.description {
+	background-color: MistyRose;
+	border: 10px LightPink solid;
+	box-shadow: 5px 5px 5px grey;
+	height: 75vh;
+	width: 30vw;
+}
+
+h2 {
+	text-align: center;
+	font-family: Lucida Handwriting;
+	color: brown;
+	font-size: 25px;
+}
+
+h3 {
+	text-align: center;
+	color: DimGrey;
+	font-family: Arial;
+}
+	
+p {
+	text-align: justify;
+	font-size: 20px;
+	font-family: Brush Script Std, cursive;
+}
+
+.button {
+	background-image: linear-gradient(to right, purple, coral);
+	color: white;
+	padding: 10px 20px;
+	border-radius: 3px;
+	box-shadow: 0 0 10px grey;
+	text-align: center;
+	background-position: center;
+	margin-left: 150px;
+}

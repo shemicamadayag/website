@@ -1,0 +1,63 @@
+body {
+  background-image: url(../images/buildings.jpg);
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menu {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	padding: 0;
+	grid-gap: 10px;
+}
+
+a {
+	text-decoration: none;
+	list-style: none;
+	color: white;
+}
+
+.header a:hover {
+	color: white;
+}
+		
+li {
+	font-family: Lucida Handwriting;
+	background: HotPink;
+	padding: 20px;
+	text-align: center;
+	list-style: none;
+	font-size: 25px;
+	border: 5px RosyBrown solid;
+	font-weight: bold;
+	box-shadow: 5px 2px white;
+}
+	
+.header li:hover {
+	background-color: LightPink;
+	border: 5px white solid;
+	box-shadow: 5px 2px grey;
+}
+
+.gif {
+	background-image: url(../images/roses.gif);
+	height: 50vh;
+	width: 90vh;
+	border-radius: 10px;
+	border: 5px SeaShell solid;
+	box-shadow: 5px 5px 5px grey;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin-left: 190px;
+	margin-top: 50px;
+}
+
+p {
+	font-family: verdana;
+	text-align: center;
+	color: maroon;
+	font-size: 40px;
+}

@@ -1,0 +1,339 @@
+body {
+  background-image: url(../images/buildings.jpg);
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menu {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	padding: 0;
+	grid-gap: 10px;
+}
+
+a {
+	text-decoration: none;
+	list-style: none;
+	color: white;
+}
+
+.header a:hover {
+	color: white;
+}
+		
+li {
+	font-family: Lucida Handwriting;
+	background: HotPink;
+	padding: 20px;
+	text-align: center;
+	list-style: none;
+	font-size: 25px;
+	border: 5px RosyBrown solid;
+	font-weight: bold;
+	box-shadow: 5px 2px white;
+}
+	
+.header li:hover {
+	background-color: LightPink;
+	border: 5px white solid;
+	box-shadow: 5px 2px grey;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr 2fr;
+	height: 20vh;
+	margin-top: 50px;
+	grid-gap: 10px;
+	margin-bottom: 10px;
+}
+
+.picture {
+	border: 10px Beige solid;
+	border-radius: 5px;
+	grid-gap: 20px;
+	background-image: url(../images/kimchi.jpg);
+	background-size: cover;
+	margin-left: 10px;
+}
+
+.about {
+	background-color: Linen;
+	border: 10px White solid;
+	border-radius: 5px;
+	font-family: verdana;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	color: Brown;
+}
+
+.about p:hover {
+	color: indianred;
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 19.5px;
+}
+
+.about h1:hover {
+	background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 19.5px;
+}
+
+.picture2 {
+	border: 10px Beige solid;
+	border-radius: 5px;
+	grid-gap: 20px;
+	background-image: url(../images/bibimbap.jpg);
+	background-size: cover;
+}
+
+.about2 {
+	background-color: LightYellow;
+	border: 10px White solid;
+	border-radius: 5px;
+	font-family: verdana;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	color: Brown;
+	margin-right: 10px;
+}
+
+.about2 p:hover {
+	color: GoldenRod;
+	font-weight: bold;
+}
+
+.about2 h1:hover {
+	background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 19.5px;
+}
+
+.container2 {
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr 2fr;
+	height: 20vh;
+	margin-top: 20px;
+	grid-gap: 10px;
+}
+
+.picture3 {
+	border: 10px Beige solid;
+	border-radius: 5px;
+	grid-gap: 20px;
+	background-image: url(../images/bulgogi.jpg);
+	background-size: cover;
+	margin-left: 10px;
+}
+
+.about3 {
+	background-color: PapayaWhip;
+	border: 10px White solid;
+	border-radius: 5px;
+	font-family: verdana;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	color: Brown;
+}
+
+.about3 p:hover {
+	color: LightSlateGrey;
+	font-weight: bold;
+}
+
+.about3 h1:hover {
+	background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 19.5px;
+}
+
+.picture4 {
+	border: 10px Beige solid;
+	border-radius: 5px;
+	grid-gap: 20px;
+	background-image: url(../images/japchae.jpg);
+	background-size: cover;
+}
+
+.about4 {
+	background-color: MistyRose;
+	border: 10px White solid;
+	border-radius: 5px;
+	font-family: verdana;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	color: Brown;
+	margin-right: 10px;
+}
+
+.about4 p:hover {
+	color: Purple;
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 19.5px;
+}
+
+.about4 h1:hover {
+	background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 19.5px;
+}
+
+.container3 {
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr 2fr;
+	height: 20vh;
+	margin-top: 20px;
+	grid-gap: 10px;
+}
+
+.picture5 {
+	border: 10px Beige solid;
+	border-radius: 5px;
+	grid-gap: 20px;
+	background-image: url(../images/ddukbokki.jpg);
+	background-size: cover;
+}
+
+.about5 {
+	background-color: Wheat;
+	border: 10px White solid;
+	border-radius: 5px;
+	font-family: verdana;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	color: Brown;
+	margin-right: 10px;
+}
+
+.about5 p:hover {
+	color: OrangeRed;
+	font-weight: bold;
+}
+
+.about5 h1:hover {
+	background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 19.5px;
+}
+
+.picture6 {
+	border: 10px Beige solid;
+	border-radius: 5px;
+	grid-gap: 20px;
+	background-image: url(../images/samgyeopsal.jpg);
+	background-size: cover;
+}
+
+.about6 {
+	background-color: LavenderBlush;
+	border: 10px White solid;
+	border-radius: 5px;
+	font-family: verdana;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	color: Brown;
+	margin-right: 10px;
+}
+
+.about6 p:hover {
+	color: Orchid;
+	font-weight: bold;
+}
+
+.about6 h1:hover {
+	background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 19.5px;
+}
+
+.container4 {
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr 2fr;
+	height: 20vh;
+	margin-top: 20px;
+	grid-gap: 10px;
+}
+
+.picture7 {
+	border: 10px Beige solid;
+	border-radius: 5px;
+	grid-gap: 20px;
+	background-image: url(../images/seolieongtang.jpg);
+	background-size: cover;
+}
+
+.about7 {
+	background-color: Lavender;
+	border: 10px White solid;
+	border-radius: 5px;
+	font-family: verdana;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	color: Brown;
+	margin-right: 10px;
+}
+
+.about7 p:hover {
+	color: Indigo;
+	font-weight: bold;
+}
+
+.about7 h1:hover {
+	background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 19.5px;
+}
+
+.picture8 {
+	border: 10px Beige solid;
+	border-radius: 5px;
+	grid-gap: 20px;
+	background-image: url(../images/sundubu.jpg);
+	background-size: cover;
+}
+
+.about8 {
+	background-color: Khaki;
+	border: 10px White solid;
+	border-radius: 5px;
+	font-family: verdana;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	color: Brown;
+	margin-right: 10px;
+}
+
+.about8 p:hover {
+	color: GoldenRod;
+	font-weight: bold;
+}
+
+.about8 h1:hover {
+	background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 19.5px;
+}
